@@ -15,9 +15,89 @@
     <title>Mac Book Pro</title>
 </head>
 
-<body>
-    <main class="main-container">
-        <section></section>
+<body class="mx-auto">
+    <main>
+        <section class="d-flex justify-content-center mt-5">
+            <section class="me-5">
+                <img class="img-fluid" src="./image/mac.png" alt="">
+            </section>
+            <section>
+                <div>
+                    <h1>Customize your Blue 24-inch iMac with Apple M1 chip.</h1>
+                    <p class="fs-6">Apple M1 chip 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core
+                        GPU,
+                        and 16-core
+                        Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt / USB 4 ports Magic Mouse
+                        Magic
+                        keyboard-US English</p>
+                </div>
+                <div class="mt-4">
+                    <div class="mb-5">
+                        <div class="mb-5">
+                            <h6 class="fw-bolder">Memory</h6>
+                            <button id="memory-8" type="button" class="btn btn-outline-secondary">8GB unified
+                                memory</button>
+                            <button id="memory-16" type="button" class="btn btn-outline-secondary">16GB unified
+                                memory</button>
+                        </div>
+                        <div class="mb-5">
+                            <h6 class="fw-bolder">Storage</h6>
+                            <button id="storage-256" type="button" class="btn btn-outline-secondary">256GB SSD
+                                storage</button>
+                            <button id="storage-512" type="button" class="btn btn-outline-secondary">512GB SSD
+                                storage</button>
+                            <button id="storage-1tb" type="button" class="btn btn-outline-secondary">1TB SSD
+                                storage</button>
+                        </div>
+                        <div class="mb-5">
+                            <h6 class="fw-bolder">Choose your delivery option</h6>
+                            <button id="delivery-free" type="button" class="btn btn-outline-secondary">Friday, Aug 25
+                                FREE
+                                Prime
+                                Delivery</button>
+                            <button id="delivery-paid" type="button" class="btn btn-outline-secondary">Friday, Aug 21
+                                Delivery
+                                charge $20</button>
+
+                        </div>
+                    </div>
+                    <div class="mt-5 w-50">
+                        <div class="border-bottom d-flex justify-content-between m-2 px-2">
+                            <h6 class="fw-bolder">Best Price</h6>
+                            <h6 class="fw-bolder">$<span id="price">1299</span></h6>
+                        </div>
+                        <div class="border-bottom d-flex justify-content-between m-2 px-2">
+                            <h6 class="fw-bolder">Extra Memory Cost</h6>
+                            <h6 class="fw-bolder">$<span id="extra-memory-cost">0</span></h6>
+                        </div>
+                        <div class="border-bottom d-flex justify-content-between m-2 px-2">
+                            <h6 class="fw-bolder">Extra Storage Cost</h6>
+                            <h6 class="fw-bolder">$<span id="extra-storage-cost">0</span></h6>
+                        </div>
+                        <div class="border-bottom border-dark d-flex justify-content-between m-2 px-2">
+                            <h6 class="fw-bolder">Delivery Cost</h6>
+                            <h6 class="fw-bolder">$<span id="delivery-cost">0</span></h6>
+                        </div>
+                        <div class="border-bottom d-flex justify-content-between m-2 px-2">
+                            <h6 class="fw-bolder">Total</h6>
+                            <h6 class="fw-bolder">$<span id="total-cost">1299</span></h6>
+                        </div>
+                        <div class="mt-4">
+                            <h6 class="fw-bold">Add Promo Code</h6>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control rounded me-2" placeholder="Promo Code"
+                                    aria-label="Promo Code">
+                                <button class="btn rounded btn-danger" type="button" id="promo-code">Apply</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <hr>
+        <section class="text-center mb-5">
+            <h1>Total: $<span id="total-footer">1299</span></h1>
+        </section>
     </main>
     <!-- --------------------bootstrap js------------------- -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
