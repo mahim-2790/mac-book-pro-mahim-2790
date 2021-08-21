@@ -65,7 +65,7 @@ document.getElementById('delivery-paid').addEventListener('click', function () {
 document.getElementById('promo-code-btn').addEventListener('click', function () {
     const promoCode = 'stevekaku';
     const inputPromoCode = document.getElementById('promo-code');
-    let payable = getCost('payable');
+    let payable = getCost('total');
     if (promoCode == inputPromoCode.value.trim()) {
         payable = payable - (payable * .2);
         setCost('payable', payable);
